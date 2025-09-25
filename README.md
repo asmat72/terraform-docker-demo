@@ -7,7 +7,7 @@
       - “Docker”: Containerization platform used to run lightweight, isolated applications.
  📁 Files Included :
       - main.tf`: Terraform configuration file that defines the Docker image and container.
-      - “Execution logs”: Execution logs from Terraform commands (“init”, “plan”, “apply”, “state”,     “destroy”).
+      - “Execution logs”: Execution logs from Terraform commands (“init”, “plan”, “apply”, “state”, “destroy”).
 🚀 Working Process :
    1. Environment Setup :
       - Installed Terraform and Docker on an AWS EC2 instance (Ubuntu).
@@ -20,10 +20,10 @@
    3. Terraform Workflow :
       - Executed the following commands step-by-step:
          a. Initialize Terraform
-         b. Preview Infrastructure Plan.  (Shows what Terraform will create.)
-         c. Apply Configuration.    (Creates the Docker container.)
-         d. Check Terraform State.   (Displays managed resources.)
-         e. Destroy Infrastructure.    (Removes the container and cleans up.)
+         b. Preview Infrastructure Plan. (Shows what Terraform will create.)
+         c. Apply Configuration. (Creates the Docker container.)
+         d. Check Terraform State. (Displays managed resources.)
+         e. Destroy Infrastructure. (Removes the container and cleans up.)
    4. Outcome :
       - Successfully provisioned and destroyed a Docker container using Terraform. Gained hands-on experience with:
          • Docker provider usage
