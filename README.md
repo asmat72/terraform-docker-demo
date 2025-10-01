@@ -6,8 +6,8 @@
       - “Terraform”:  Infrastructure as Code tool for automating resource provisioning.
       - “Docker”: Containerization platform used to run lightweight, isolated applications.
  - 📁 Files Included :
-      - main.tf`: Terraform configuration file that defines the Docker image and container.
-      - “Execution logs”: Execution logs from Terraform commands (“init”, “plan”, “apply”, “state”, “destroy”).
+       - main.tf`: Terraform configuration file that defines the Docker image and container.
+       - “Execution logs”: Execution logs from Terraform commands (“init”, “plan”, “apply”, “state”, “destroy”).
 - 🚀 Working Process :
     1. Environment Setup :
        - Installed Terraform and Docker on an AWS EC2 instance (Ubuntu).
